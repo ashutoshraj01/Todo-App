@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 700px;
+    border-radius: 15px;
+    margin:0 auto;
+    padding:5px 20px 20px 20px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+body{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 255, 255));
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c3e50;
+    margin-top: 60px;
+    font-size:24px;
+}
+
+.logo{
+    display: block;
+    margin:20px auto;
+    height: 75px;
+}
+
